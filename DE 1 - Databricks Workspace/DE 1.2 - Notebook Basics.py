@@ -401,7 +401,21 @@ display(files)
 
 # COMMAND ----------
 
+# MAGIC %sql
+# MAGIC show tables
+
+# COMMAND ----------
+
+# MAGIC %sql
+# MAGIC select * from devices
+
+# COMMAND ----------
+
 DA.cleanup()
+
+# COMMAND ----------
+
+
 
 # COMMAND ----------
 
